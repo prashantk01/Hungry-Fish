@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameOverActivity"
+    android:background="@drawable/backfourf">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gameoverText"
+        android:textAlignment="center"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="60dp"
+        android:text="GAME OVER" />
+    
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gameoverText"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:padding="20dp"
+        android:text="PLAY AGAIN"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold"
+        android:id="@+id/play_button"/>
+
+    <TextView
+        android:id="@+id/score_yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/play_button"
+        android:layout_marginTop="80dp"
+        android:text=" yellow ball  "
+        android:textColor="#AD0D42"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/score_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/play_button"
+        android:layout_marginTop="110dp"
+        android:text="black ball  "
+        android:textColor="#AD0D42"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/score_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/play_button"
+        android:layout_marginTop="140dp"
+        android:text="green ball  "
+        android:textColor="#AD0D42"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <TextView
+        android:id="@+id/score_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/play_button"
+        android:layout_marginTop="180dp"
+        android:text="Score "
+        android:textColor="#AD0D42"
+        android:padding="30dp"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+</android.widget.RelativeLayout>
